@@ -9,3 +9,9 @@ Build a Monolith with React
 
 It’s time to build a simple Rails application to manage a list of books we want to read.
 Let's start with generating the Rails skeleton.
+
+Generate the skeleton using the rails new command:
+
+```shell
+rails new booklist -d postgresql -j esbuild
+
