@@ -15,3 +15,4 @@ Generate the skeleton using the rails new command:
 ```shell
 rails new booklist -d postgresql -j esbuild
 
+
