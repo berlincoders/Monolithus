@@ -13,6 +13,11 @@ Let's start with generating the Rails skeleton.
 Generate the skeleton using the rails new command:
 
 ```shell
-rails new booklist -d postgresql -j esbuild
+rails new . -d postgresql -j esbuild
+```
+This command will generate a new Rails project in the current directory.
+After running the command, Rails will create the necessary project structure and install dependencies.
+
+
 
 
