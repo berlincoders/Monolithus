@@ -26,11 +26,16 @@ Run this command in the terminal:
 ```shell
 rails g controller Home index
 ```
-# React Installation
-We will install the react, react-dom, and node-uuid libraries using yarn in our terminal:
+# Install React Using Package Manager
+This option seems to be the most flexible and optimal way to add React to a Rails project. 
+You don’t create another level of abstraction for the front-end as you fetch the library directly.
+Updating React is also simpler.
+
+The most popular package managers in the Rails community are NPM and Yarn.
+You can add React libraries by invoking this command in the terminal:
 
 ```shell
-yarn add react react-dom node-uuid
+yarn add react react-dom # or npm install react react-dom
 ```
 
 
