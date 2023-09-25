@@ -24,5 +24,5 @@ Now generate a home controller for a single endpoint in the application so we ca
 Run this command in the terminal:
 
 ```shell
-g controller Home index
+rails g controller Home index
 ```
