@@ -18,3 +18,11 @@ rails new . -d postgresql -j esbuild
 This command will generate a new Rails project in the current directory.
 After running the command, Rails will create the necessary project structure and install dependencies.
 
+-Create the db, and Run the server
+
+Now generate a home controller for a single endpoint in the application so we can attach the React application to the layout.
+Run this command in the terminal:
+
+```shell
+rails g controller Home index
+```
