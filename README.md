@@ -26,3 +26,13 @@ Run this command in the terminal:
 ```shell
 rails g controller Home index
 ```
+# React Installation
+We will install the react, react-dom, and node-uuid libraries using yarn in our terminal:
+
+```shell
+yarn add react react-dom node-uuid
+```
+
+
+
+
