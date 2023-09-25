@@ -35,7 +35,7 @@ The most popular package managers in the Rails community are NPM and Yarn.
 You can add React libraries by invoking this command in the terminal:
 
 ```shell
-yarn add react react-dom # or npm install react react-dom
+npm install react react-dom
 ```
 
 
